@@ -8,4 +8,15 @@ crime_fc_path = os.path.join(gdb_path, crime_fc_name)
 arcpy.management.MakeFeatureLayer(crime_fc_path, "crime_layer")
 
 feature_count = arcpy.GetCount_management("crime_layer")
-print(" Count of the crime is ",feature_count)
+print("Count of the crime is ",feature_count)
+
+
+
+
+
+
+
+
+
+
+
